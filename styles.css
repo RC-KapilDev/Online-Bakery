@@ -237,6 +237,10 @@ background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, F
   -mo-text-fill-color: transparent;
 
 }
+.highlight {
+  border-bottom: 3px solid rgb(255, 3, 3);
+  border-radius: 20px;
+}
 .main__content h2 {
   font-size: 4rem;
 }
