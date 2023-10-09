@@ -387,7 +387,11 @@ background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, F
 
 /* menu */
 .services {
-  background: #F8B766;
+  background:  linear-gradient(
+    to right,
+    #F8B766,
+    #e9870f 100%
+  );
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -415,12 +419,13 @@ background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, F
 
 .services__card {
   margin: 10px;
-  height: 425px;
-  width: 300px;
+  height: 530px;
+  width: 350px;
   border-radius: 4px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+
+  align-items: center;
   color: #fff;
   transition: 0.3s ease-in;
   background: -webkit-linear-gradient(
@@ -435,13 +440,18 @@ background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, F
     #12d8fa,
     #1fa2ff
   );
+  padding: 24px 24px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+  
 }
 
 .services__card img{
-  max-width: 100%;
-  max-height: 100%;
-  object-fit: cover;
+  width: 100%;
+  object-fit: fill;
+  height:225px;
+  border-radius: 4px;
 }
+
 
 .services__card:nth-child(2) {
   background: #1fa2ff; /* fallback for old browsers */
@@ -475,14 +485,11 @@ background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, F
 }
 
 .services__card h2 {
-  text-align: center;
+  text-align: left;
+  padding :20px
 }
 
-.services__card p {
-  text-align: center;
-  margin-top: 24px;
-  font-size: 20px;
-}
+
 
 .services__btn {
   display: flex;
@@ -510,15 +517,29 @@ background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, F
   cursor: pointer;
 }
 
+.services__card h2 {
+  text-align: center;
+  color: #f2f2f2;
+}
+
+.services__card p {
+  text-align: left;
+  margin-top: 24px;
+  font-size: 18px;
+  color: black;
+}
+
 @media screen and (max-width: 1300px) {
   .services__wrapper {
     grid-template-columns: 1fr 1fr;
+    
   }
 }
 
 @media screen and (max-width: 768px) {
   .services__wrapper {
     grid-template-columns: 1fr;
+    
   }
 }
 
@@ -567,6 +588,8 @@ background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, F
 }
 .menu-card img{
   border-radius: 10px;
+  object-fit: cover;
+  height: 160px;
 }
 .menu-price{
   display: flex;
@@ -575,15 +598,7 @@ background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, F
 }
 
 
-.services__card h2 {
-  text-align: center;
-}
 
-.services__card p {
-  text-align: center;
-  margin-top: 24px;
-  font-size: 20px;
-}
 
 .menu h1{
   background-color: #131313;
@@ -633,5 +648,62 @@ background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, F
   }
 }
 
-
+/* Orders */
+.orders-wrapp{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f2f2f2;
   
+}
+#orders {
+  background-color: #f2f2f2;
+  padding: 50px 0;
+  display: flex;
+  flex-direction: column;
+  max-width: 1100px;
+  margin: 0 20px;
+  width: 100%;
+}
+
+#orders h2 {
+  font-size: 3rem;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+#orders form {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+#orders label {
+  font-size: 1.2rem;
+  margin-right: 20px;
+}
+
+#orders input,
+#orders select {
+  font-size: 1.2rem;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border: none;
+}
+
+#orders input[type="submit"] {
+  background-color: #333;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+#orders input[type="submit"]:hover {
+  background-color: #111;
+}
+
+
