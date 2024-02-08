@@ -19,10 +19,8 @@ This repository houses the code for a delightful bakery website, developed as pa
 This project was developed as part of my college coursework, combining my passion for web development with the charm of a bakery experience. From concept to execution, every aspect of the website reflects dedication to craftsmanship and creativity.
 
 ### Get in Touch:
-Have questions or suggestions? Don't hesitate to reach out! Connect with me through GitHub or drop me an email at [your-email@example.com](mailto:your-email@example.com).
+Have questions or suggestions? Don't hesitate to reach out! Connect with me through GitHub or drop me an email at [rkapildev8@gmail.com](mailto:rkapildev8@gmail.com).
 
 Enjoy exploring the Bakery Website Project! 🥐🎂
 
----
 
-Feel free to customize it further to better fit your project and personal style!
