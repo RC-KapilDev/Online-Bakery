@@ -11,7 +11,7 @@ This repository houses the code for a delightful bakery website, developed as pa
 - **Responsive Layout:** Whether you're browsing on a desktop, tablet, or smartphone, the website adapts seamlessly to provide an optimal viewing experience.
 
 ### How to Use:
-1. **Clone the Repository:** `[git clone https://github.com/your-username/bakery-website.git](https://github.com/RC-KapilDev/Online-bakery.git)`
+1. **Clone the Repository:** `git clone https://github.com/RC-KapilDev/Online-bakery.git`
 2. **Explore the Code:** Dive into the HTML, CSS, and PHP files to understand the website's structure and functionality.
 3. **Contribute:** Feel free to suggest enhancements, report issues, or contribute improvements. Pull requests are welcome!
 
